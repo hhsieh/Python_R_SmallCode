@@ -1,10 +1,10 @@
-## Rabbit popualtion following a Fibonacci series
+## Rabbit popualtion following a Fibonacci series 
 fibonacci<-function(n) {
 	a<-1
 	b<-0
 	for (n in seq(1:n))
 	{swap<-a
-		a<-a+b
+	        a<-a+b
 		b<-swap
 		n<-n-1}
 		b
