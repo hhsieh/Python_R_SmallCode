@@ -9,6 +9,6 @@ fibonacci <- function(n) {
 	     n <- n-1}
 	     b
 }
-rabbits<-c(sapply(1:100,fibonacci))
+rabbits <- c(sapply(1:100,fibonacci))
 print("the number of rabbits after 100 years is:")
 print(rabbits[100])
