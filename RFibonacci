@@ -1,4 +1,4 @@
-## The growth of a rabbit popualtion following a Fibonacci series 
+## The growth of a rabbit popualtion following a Fibonacci series. How many rabbits are there after 100 years? 
 fibonacci<-function(n) {
 	a<-1
 	b<-0
