@@ -1,4 +1,4 @@
-## Rabbit popualtion following a Fibonacci series 
+## The growth of a rabbit popualtion following a Fibonacci series 
 fibonacci<-function(n) {
 	a<-1
 	b<-0
