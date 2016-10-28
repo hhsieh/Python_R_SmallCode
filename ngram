@@ -1,5 +1,4 @@
 #This python function generates ngrams (n >=1 ) from a list of strings
-
 def ngrams(tokens, MIN_N, MAX_N):
     n_tokens = len(tokens)
     for i in xrange(n_tokens):
