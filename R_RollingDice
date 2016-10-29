@@ -6,7 +6,7 @@ print("guess the sum of rolling a dice for three times and then press ENTER twic
 x <- scan()
 results <- sample(1:6,3)
 result <- sum(results)
-if (x==result) {
+if (x == result) {
 	print("Your answer is correct. Congratulations!!")
 }
 if (x != result) {
