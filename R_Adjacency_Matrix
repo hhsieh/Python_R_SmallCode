@@ -8,7 +8,7 @@
 
     dist <- as.matrix(dist(data))
 
-We can write a function in R, which generates adjacency matrices based on the threshold distance _d_. 
+#We can write a function in R, which generates adjacency matrices based on the threshold distance _d_. 
 
     nt <- function(d) {
         DM <- dist[] < d
