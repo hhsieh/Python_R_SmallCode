@@ -22,7 +22,6 @@ for party in parties:
     for y in party:
         flattened_parties.append(y)
 
-#print(flattened_parties[:50])
 #print(len(flattened_parties)) #1193
 
 ## Make new soups with all of the 1193 links
