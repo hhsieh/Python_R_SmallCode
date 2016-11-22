@@ -1,6 +1,6 @@
 ## frequency analysis of twitter hashtags in social movements
 
-setwd("/Users/achimnyswallow/Documents/Projects/g0vNYC")
+setwd("") ## working directory is where 20110917.csv is located
 data <- read.csv("20110917.csv", header = T, stringsAsFactors = F)
 head(data)
 #tail(data)
@@ -17,6 +17,8 @@ movement  <- rep("occupy wall street", length(C))
 ows <- data.frame(movement , hashtag = C)
 head(ows)
 
+
+## Below shows similiar operations
 dk <- read.csv("mniwiconi.csv", header = T, stringsAsFactors = F)
 head(dk)
 hashtags_dk <- dk$Hashtags[1:40]
