@@ -9,5 +9,14 @@ def series(N):
     else:
         print 3 + (1 + N / 2) * (N / 2)
         
+## We can call the function for many times to get a series of numbers if we desire:
+## Let's produce the first 100 numbers
+
+for N in range(1, 100):
+    series()
+    
+    
+    
+        
         
 
