@@ -13,7 +13,7 @@ def series(N):
 ## Let's produce the first 100 numbers
 
 for N in range(1, 100):
-    series()
+    series(N)
     
     
     
