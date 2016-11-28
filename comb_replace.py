@@ -9,5 +9,12 @@ def comb_replace():
     L = list(combinations_with_replacement(S, N))
     for elem in L:
         print "".join(elem)
-        
+
+## call the function        
 comb_replace()  
+
+## to implement the function for multiple times
+c = int(input())
+
+for i in range(c):
+    comb_replace()
