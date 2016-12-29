@@ -1,0 +1,18 @@
+
+# find the max remainder from combinations of lists of itmes and modulus
+
+from itertools import product 
+
+def max_():
+    K, M = map(int, raw_input().split())
+    mm = []
+    for k in range(K):
+        mm.append(map(int, raw_input().split())[1:])
+    L = list(product(*mm))    
+    Lx = []
+    for elem in L:
+        Lx.append(sum([i ** 2 for i in elem]) % M)
+    print max(Lx)     
+
+
+max_()
